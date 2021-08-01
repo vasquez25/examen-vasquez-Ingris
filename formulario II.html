@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Ejercicios Diseño Web II</title>
+	<linK rel="stylesheet" type="text/css" href="css/tabla.css">
+</head>
+<body>
+<div id="encabezado">
+	<div id="logo">
+		<img src="img/logo.jpg" class="imagen">
+		<h2>Instituto Hondureño de Educación por Radio</h2>
+	</div>
+	<div >
+		<nav>
+			<ul class="menu">
+				<li><a href="">Semana I </a>
+					<ul>
+						<li><a href="index.html">Index</a></li>
+						<li><a href="tabla sencilla.html">Tabla Sencilla</a></li>
+						<li><a href="estilodetabla.html">Estilo de Tabla</a></li>
+						<li><a href="tablaconestilo.html">Tabla con Estilo</a></li>
+					</ul>
+				</li>
+				<li><a href="">Semana II </a>
+					<ul>
+						<li><a href="tabla.html">Tabla</a></li>
+						<li><a href="juego.html">Juego</a></li>
+						<li><a href="ganaste.html">Ganaste</a></li>
+					</ul>
+				</li>
+				<li><a href="">Semana III</a>
+					<ul>
+						<li><a href="mapa.html">Mapa</a></li>
+						<li><a href="formulario.html">Formulario</a></li>
+						<li><a href="formulario II.html">Formulario II</a></li>
+						<li><a href="">Sub Item</a></li>
+					</ul>
+				</li>
+				<li><a href="">Semana IV </a>
+					<ul>
+						<li><a href="">Sub Item I</a></li>
+						<li><a href="">Sub Item II</a></li>
+						<li><a href="">Sub Item III</a></li>
+						<li><a href="">Sub Item IV</a></li>
+				    </ul>
+				</li>
+				<li><a href="">Semana V </a>
+				    <ul>
+				       <li><a href="">Sub Item I</a></li>
+					   <li><a href="">Sub Item II</a></li>
+					   <li><a href="">Sub Item III</a></li>
+					   <li><a href="">Sub Item IV</a></li>
+				    </ul>
+			    </li>
+		    </ul>
+		</nav>
+	</div>
+</div>
+<div id="formularioII">
+	<center>
+		<h1>Formulario de Registro</h1>
+		<form action="" method="get">
+<p>
+
+   <label for="primer nombre">Primer nombre:</label> <input type="text" name="primer nombre" id="primer nombre" maxlength="50" />
+   <label for="segundo nombre">Segundo nombre:</label> <input type="text" name="segundo nombre" id="segundo nombre" maxlength="50" />
+</p>
+<p>
+   <label for="primer apellido">Primer apellido:</label> <input type="text" name="primer apellido" id="primer apellido" maxlength="50" />
+   <label for="segundo apellido">Segundo Apellido:</label> <input type="text" name="segundo apellido" id="segundo apellido" maxlength="50" />
+</p>
+<p>
+    Edad: <input type="number" name="edad">
+</p>
+<p>
+   Dirección: <input type="dirección" name="dirección" size="35">
+   Número de Teléfono: <input type="tel" name="número de teléfono">
+</p>
+<p>
+   Numero de Id: <input type="identidad" name="identidad" minlength="11" />
+</p>
+
+<p>Estado Civil:
+  <input type="radio" name="scul" value="s" required> soltero
+  <input type="radio" name="scul" value="c" required> Casado
+  <input type="radio" name="zcul"  value="ul" required>Unión Libre
+</p>
+
+<p>
+	Correo Electronico: <input type="email" name="correo electronico" size="30">
+</p>
+<p>
+Numero de IHSS: <input type="text" name="numero de IHSS">
+</p>
+<p><label for="pasatiempos">Pasatiempos:</label>
+<textarea name="pasatiempos" id="pasatiempos" rows="4" cols="60"></textarea>
+</p>
+<p>
+   <br>
+   <label>Titulo obtenido: </label>
+   <select id="dino select">
+   <optgroup label="">
+   <option>seleccione</option>
+   <option>Lic. en administración de empresas</option>
+   <option>ing. en sistemas</option>
+   <option>Ing. Industrial</option>
+   <option>otros</option>
+</optgroup>
+</select>
+</p>
+<p>
+	<label>Personas que dependen de Usted:</label>
+	<select name="menu">
+			<option>seleccione</option>
+			<option>2 personas</option>
+			<optiop>4 personas</optiop>
+			<option>6 personas</option>
+			<option>8 personas</option>
+	</select>
+	<label>Experiencia Laboral:</label>
+	<select name="menu">
+		<option>sin experiecia</option>
+		<option>Dos años</option>
+		<option>Cuatro años</option>
+		<option>Cinco años</option>
+		<option>Ocho años</option>
+	</select>
+</p>
+<p>
+
+	<label for="a trabajado con anterioridad">A Trabajado Con Anterioridad:</label>
+	<select id="dino select">
+		<optgroup label="">
+			<option>seleccione</option>
+			<option>Si</option>
+			<option>No</option>
+		</optgroup>
+	</select>
+
+	Nombre de la empreasa en la que laboró:<input type="empresa" name="nombre de la empresa">
+<p><label for="Razones por las que decea trabjar en esta empresa">Razones por las que decea trabar en esta empresa</label>
+	<textarea name="Razones por las que decea trabajar en esta empresa" id="razones por las que decea trabjar en esta empresa" rows="5" cols="60"></textarea>
+</p>
+	<legend>Recomendaciones Personales, que no sean familiares </legend>
+	<p>Nombre: <input type="text" name="nombre" size="30">
+       Teléfono: <input type="tel" name="Telefono" >
+</p>
+	<p>Nombre: <input type="text" name="nombre" size="30">
+		Télefono: <input type="tel" name="telefono">
+	</p>
+
+<p>
+<input type="checkbox" name="info" id="info" checked="checked" /> <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+</p>
+
+<p>
+<input type="checkbox" name="condiciones" id="condiciones" /> <label for="condiciones"> Declaro haber leido y aseptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+</p>
+
+<p>
+	<input type="submit" value="Enviar" />
+</p>
+<div id="Derechos reservados">Derechos reservados&copy; -  Ingris Vasquez  SECCION #3 - año 2021</div>
+</form>
+</center>
+</body>
+</html>
